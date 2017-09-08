@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Mute_Example' do
+  pod 'Mute', :path => '../'
+
+  target 'Mute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

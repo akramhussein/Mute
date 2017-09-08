@@ -1,0 +1,6 @@
+framework module Mute {
+  umbrella header "Mute-umbrella.h"
+
+  export *
+  module * { export * }
+}

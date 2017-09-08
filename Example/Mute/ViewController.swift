@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import Mute
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var label: UILabel! {
+        didSet {
+            self.label.text = ""
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        Mute.shared.notify = { m in
+            self.label.text = m ? "Muted" : "Not Muted"
+        }
     }
 
 }
-

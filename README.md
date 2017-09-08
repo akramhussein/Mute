@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        mute.alwaysNotify = true // true will notify every second of the mute switch state
+        mute.alwaysNotify = true // `true` will notify every second of the mute switch state
         mute.notify = { m in
             self.label.text = m ? "Muted" : "Not Muted"
         }

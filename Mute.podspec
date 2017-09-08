@@ -14,7 +14,7 @@ This library is a Swift variant of https://github.com/moshegottlieb/SoundSwitch.
   s.homepage         = 'https://github.com/akramhussein/Mute'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Akram Hussein' => 'akramhussein@gmail.com' }
-  s.source           = { :git => 'https://github.com/Akram Hussein/Mute.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/akramhussein/Mute.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ahussein'
 
   s.ios.deployment_target = '8.0'

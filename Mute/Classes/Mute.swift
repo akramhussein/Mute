@@ -36,6 +36,16 @@ final public class Mute {
     
     /// State of detection - paused when in background
     public private(set) var isPaused = false
+
+    /// How frequently to check (seconds), minimum = 0.5
+    public var checkInterval = 1.0 {
+        didSet {
+            if self.checkInterval < 0.5 {
+                print("MUTE: checkInterval cannot be less than 0.5s, setting to 0.5")
+                self.checkInterval = 0.5
+            }
+        }
+    }
     
     /// Silent sound (0.5 sec)
     private var soundId: SystemSoundID = 0
@@ -132,7 +142,7 @@ final public class Mute {
     
     /// Schedueles mute sound to be played in 1 second
     private func schedulePlaySound() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + self.checkInterval) {
             self.playSound()
         }
     }

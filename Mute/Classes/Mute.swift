@@ -35,7 +35,13 @@ final public class Mute {
     public private(set) var isMute = false
     
     /// State of detection - paused when in background
-    public private(set) var isPaused = false
+    public var isPaused = false {
+        didSet {
+            if !self.isPaused && !self.isPlaying {
+                self.schedulePlaySound()
+            }
+        }
+    }
 
     /// How frequently to check (seconds), minimum = 0.5
     public var checkInterval = 1.0 {
@@ -133,9 +139,6 @@ final public class Mute {
     /// Selector called when app will enter foreground
     @objc private func willEnterForeground(_ sender: Any) {
         self.isPaused = false
-        if !self.isPlaying {
-            self.schedulePlaySound()
-        }
     }
     
     // MARK: Methods

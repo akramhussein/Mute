@@ -20,8 +20,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Notify every 2 seconds
+        Mute.shared.checkInterval = 2.0
+        
+        // Update label when notification received
         Mute.shared.notify = { m in
             self.label.text = m ? "Muted" : "Not Muted"
+        }
+
+        // Stop after 5 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            Mute.shared.isPaused = true
+        }
+        
+        // Re-start after 10 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+            Mute.shared.isPaused = false
         }
     }
 

@@ -23,6 +23,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 import UIKit
 import Mute
 
+import UIKit
+import Mute
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel! {
@@ -31,16 +34,31 @@ class ViewController: UIViewController {
         }
     }
 
-    let mute = Mute.shared
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        mute.alwaysNotify = true // `true` will notify every second of the mute switch state
-        mute.notify = { m in
+        // Notify every 2 seconds
+        Mute.shared.checkInterval = 2.0
+
+        // Always notify on interval
+        Mute.shared.alwaysNotify = true
+
+        // Update label when notification received
+        Mute.shared.notify = { m in
             self.label.text = m ? "Muted" : "Not Muted"
         }
+
+        // Stop after 5 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            Mute.shared.isPaused = true
+        }
+
+        // Re-start after 10 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+            Mute.shared.isPaused = false
+        }
     }
+
 }
 ```
 ## Requirements

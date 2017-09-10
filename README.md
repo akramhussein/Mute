@@ -1,6 +1,5 @@
 # Mute
 
-[![CI Status](http://img.shields.io/travis/akramhussein/Mute.svg?style=flat)](https://travis-ci.org/akramhussein/Mute)
 [![Version](https://img.shields.io/cocoapods/v/Mute.svg?style=flat)](http://cocoapods.org/pods/Mute)
 [![License](https://img.shields.io/cocoapods/l/Mute.svg?style=flat)](http://cocoapods.org/pods/Mute)
 [![Platform](https://img.shields.io/cocoapods/p/Mute.svg?style=flat)](http://cocoapods.org/pods/Mute)

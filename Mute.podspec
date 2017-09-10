@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Mute'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Detect if silent/mute switch is enabled/disabled'
   s.description      = <<-DESC
 There is no native iOS API to detect if the mute switch is enabled/disabled on a device.

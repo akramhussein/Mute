@@ -23,9 +23,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 import UIKit
 import Mute
 
-import UIKit
-import Mute
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel! {

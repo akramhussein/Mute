@@ -8,7 +8,8 @@
 import Foundation
 import AudioToolbox
 
-final public class Mute {
+@objcMembers
+public class Mute: NSObject {
 
     public typealias MuteNotificationCompletion = ((_ mute: Bool) -> Void)
     
@@ -34,10 +35,13 @@ final public class Mute {
     /// Current mute state
     public private(set) var isMute = false
     
+    /// Sound is scheduled
+    private var isScheduled = false
+    
     /// State of detection - paused when in background
     public var isPaused = false {
         didSet {
-            if !self.isPaused && !self.isPlaying {
+            if !self.isPaused && oldValue && !self.isPlaying {
                 self.schedulePlaySound()
             }
         }
@@ -82,7 +86,9 @@ final public class Mute {
     // MARK: Init
     
     /// private init
-    private init() {
+    private override init() {
+        super.init()
+        
         self.soundId = 1
         
         if AudioServicesCreateSystemSoundID(self.soundUrl as CFURL, &self.soundId) == kAudioServicesNoError {
@@ -145,7 +151,21 @@ final public class Mute {
     
     /// Schedueles mute sound to be played in 1 second
     private func schedulePlaySound() {
+        /// Don't schedule a new one if we already have one queued
+        if (self.isScheduled) {
+            return;
+        }
+        
+        self.isScheduled = true
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + self.checkInterval) {
+            self.isScheduled = false
+            
+            /// Don't play if we're paused
+            if (self.isPaused) {
+                return;
+            }
+            
             self.playSound()
         }
     }

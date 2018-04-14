@@ -41,8 +41,8 @@ class ViewController: UIViewController {
         Mute.shared.alwaysNotify = true
 
         // Update label when notification received
-        Mute.shared.notify = { m in
-            self.label.text = m ? "Muted" : "Not Muted"
+        Mute.shared.notify = { [weak self] m in
+            self?.label.text = m ? "Muted" : "Not Muted"
         }
 
         // Stop after 5 seconds

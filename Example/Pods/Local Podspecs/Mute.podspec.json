@@ -17,12 +17,12 @@
   },
   "social_media_url": "https://twitter.com/ahussein",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "Mute/Classes/**/*",
   "resource_bundles": {
     "Mute": [
-      "Mute/Assets/*.aiff"
+      "Mute/Assets/*.caf"
     ]
   },
   "frameworks": [

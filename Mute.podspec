@@ -17,12 +17,12 @@ This library is a Swift variant of https://github.com/moshegottlieb/SoundSwitch.
   s.source           = { :git => 'https://github.com/akramhussein/Mute.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ahussein'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'Mute/Classes/**/*'
 
   s.resource_bundles = {
-    'Mute' => ['Mute/Assets/*.aiff']
+    'Mute' => ['Mute/Assets/*.caf']
   }
   s.frameworks = 'Foundation', 'AudioToolbox'
 end

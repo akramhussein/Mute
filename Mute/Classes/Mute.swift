@@ -178,7 +178,9 @@ public class Mute: NSObject {
 
         if self.isMute != isMute || self.alwaysNotify {
             self.isMute = isMute
-            self.notify?(isMute)
+            DispatchQueue.main.async {
+                self.notify?(isMute)
+            }
         }
         self.schedulePlaySound()
     }

@@ -77,8 +77,8 @@ public class Mute: NSObject {
 
     /// Mute sound url path
     private static var muteSoundUrl: URL {
-        guard let muteSoundUrl = Mute.bundle.url(forResource: "mute", withExtension: "aiff") else {
-            fatalError("mute.aiff not found")
+        guard let muteSoundUrl = Mute.bundle.url(forResource: "mute", withExtension: "caf") else {
+            fatalError("mute.caf not found")
         }
         return muteSoundUrl
     }
@@ -92,16 +92,6 @@ public class Mute: NSObject {
         self.soundId = 1
 
         if AudioServicesCreateSystemSoundID(self.soundUrl as CFURL, &self.soundId) == kAudioServicesNoError {
-            let weakSelf = UnsafeMutableRawPointer(Unmanaged.passUnretained(self).toOpaque())
-
-            AudioServicesAddSystemSoundCompletion(self.soundId, CFRunLoopGetMain(), CFRunLoopMode.defaultMode.rawValue, { _, weakSelfPointer in
-                guard let weakSelfPointer = weakSelfPointer else { return }
-
-                let weakSelfValue = Unmanaged<Mute>.fromOpaque(weakSelfPointer).takeUnretainedValue()
-                weakSelfValue.soundFinishedPlaying()
-
-            }, weakSelf)
-
             var yes: UInt32 = 1
             AudioServicesSetProperty(kAudioServicesPropertyIsUISound,
                                      UInt32(MemoryLayout.size(ofValue: self.soundId)),
@@ -173,7 +163,9 @@ public class Mute: NSObject {
         if !self.isPaused {
             self.interval = Date.timeIntervalSinceReferenceDate
             self.isPlaying = true
-            AudioServicesPlaySystemSound(self.soundId)
+            AudioServicesPlaySystemSoundWithCompletion(self.soundId) { [weak self] in
+                self?.soundFinishedPlaying()
+            }
         }
     }
 

@@ -19,7 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Usage
 
-```
+```Swift
 import UIKit
 import Mute
 

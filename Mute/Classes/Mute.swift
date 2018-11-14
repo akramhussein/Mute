@@ -108,12 +108,12 @@ public class Mute: NSObject {
         // Notifications
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(Mute.didEnterBackground(_:)),
-                                               name: NSNotification.Name.UIApplicationDidEnterBackground,
+                                               name: UIApplication.didEnterBackgroundNotification,
                                                object: nil)
 
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(Mute.willEnterForeground(_:)),
-                                               name: NSNotification.Name.UIApplicationWillEnterForeground,
+                                               name: UIApplication.willEnterForegroundNotification,
                                                object: nil)
     }
 

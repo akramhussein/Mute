@@ -22,7 +22,7 @@ This library is a Swift variant of https://github.com/moshegottlieb/SoundSwitch.
   s.source_files = 'Mute/Classes/**/*'
 
   s.resource_bundles = {
-    'Mute' => ['Mute/Assets/*.caf']
+    'Mute' => ['Mute/Assets/*.aiff']
   }
   s.frameworks = 'Foundation', 'AudioToolbox'
 end

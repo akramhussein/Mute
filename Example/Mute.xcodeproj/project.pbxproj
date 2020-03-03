@@ -129,7 +129,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				168C317776800753BB1DFE4C /* [CP] Embed Pods Frameworks */,
-				3594D748F84C717D16C54233 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +193,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Mute_Example/Pods-Mute_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Mute_Example/Pods-Mute_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Mute/Mute.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -203,22 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mute_Example/Pods-Mute_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3594D748F84C717D16C54233 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mute_Example/Pods-Mute_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mute_Example/Pods-Mute_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		77214DBE6983E017A81FCAA0 /* [CP] Check Pods Manifest.lock */ = {

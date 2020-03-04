@@ -1,16 +1,16 @@
 PODS:
-  - Mute (0.2.2)
+  - Mute (0.5.1)
 
 DEPENDENCIES:
   - Mute (from `../`)
 
 EXTERNAL SOURCES:
   Mute:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Mute: 3e6325dfe8a9bcc0eb58406c55d8f077737c00a3
+  Mute: 5aeee165783cfde9afc51902fb8ae7f475c26a00
 
 PODFILE CHECKSUM: fb28e3bb1f669e3571a6122a3243a52c937fe061
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.8.4

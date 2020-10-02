@@ -7,6 +7,7 @@
 
 import Foundation
 import AudioToolbox
+import UIKit
 
 @objcMembers
 public class Mute: NSObject {
@@ -67,12 +68,29 @@ public class Mute: NSObject {
 
     /// Library bundle
     private static var bundle: Bundle {
-        guard let path = Bundle(for: Mute.self).path(forResource: "Mute", ofType: "bundle"),
-            let bundle = Bundle(path: path) else {
-            fatalError("Mute.bundle not found")
+        if let path = Bundle(for: Mute.self).path(forResource: "Mute", ofType: "bundle"),
+           let bundle = Bundle(path: path) {
+            return bundle
         }
 
-        return bundle
+        let spmBundleName = "Mute_Mute"
+
+        let candidates = [
+            // Bundle should be present here when the package is linked into an App.
+            Bundle.main.resourceURL,
+
+            // Bundle should be present here when the package is linked into a framework.
+            Bundle(for: Mute.self).resourceURL
+        ]
+
+        for candidate in candidates {
+            let bundlePath = candidate?.appendingPathComponent(spmBundleName + ".bundle")
+            if let bundle = bundlePath.flatMap(Bundle.init(url:)) {
+                return bundle
+            }
+        }
+
+        fatalError("Mute.bundle not found")
     }
 
     /// Mute sound url path

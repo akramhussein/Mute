@@ -26,10 +26,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sag-F9-GW4">
+                                <rect key="frame" x="37.5" y="603" width="300" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ggL-aC-Jm1"/>
+                                </constraints>
+                                <state key="normal" title="Force Check">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="forceCheckPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OTt-vh-0ye"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="L49-iQ-JaJ" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.8" id="9b6-oA-hCz"/>
+                            <constraint firstItem="Sag-F9-GW4" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.8" id="Xre-v0-xw0"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Sag-F9-GW4" secondAttribute="bottom" constant="20" id="aA3-mS-dqw"/>
+                            <constraint firstItem="Sag-F9-GW4" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="e21-My-eXs"/>
                             <constraint firstItem="L49-iQ-JaJ" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="eaa-vM-Z4a"/>
                             <constraint firstItem="L49-iQ-JaJ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="zMY-OP-cuu"/>
                         </constraints>

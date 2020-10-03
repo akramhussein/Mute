@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel! {
         didSet {
-            self.label.text = ""
+            self.label.text = "-"
         }
     }
 
@@ -41,5 +41,10 @@ class ViewController: UIViewController {
             Mute.shared.isPaused = false
         }
     }
+    
 
+    @IBAction func forceCheckPressed(_ sender: UIButton) {
+        print("Force Check Pressed")
+        Mute.shared.check()
+    }
 }

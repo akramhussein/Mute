@@ -157,12 +157,12 @@ public class Mute: NSObject {
 
     // MARK: Methods
 
-    /// Starts a mute check outside the `checkInterval`.
+    /// Starts a mute check outside the `checkInterval`
     public func check() {
-        playSound()
+        self.playSound()
     }
 
-    /// Schedules mute sound to be played in 1 second
+    /// Schedules mute sound to be played at `checkInterval`
     private func schedulePlaySound() {
         /// Don't schedule a new one if we already have one queued
         if self.isScheduled { return }
@@ -183,7 +183,7 @@ public class Mute: NSObject {
 
     /// If not paused, playes mute sound
     private func playSound() {
-        if !self.isPaused {
+        if !self.isPaused && !self.isPlaying {
             self.interval = Date.timeIntervalSinceReferenceDate
             self.isPlaying = true
             AudioServicesPlaySystemSoundWithCompletion(self.soundId) { [weak self] in

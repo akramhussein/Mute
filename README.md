@@ -11,7 +11,7 @@ From this length we can determine if it was muted or not.
 
 This library is effectively a Swift variant of [SoundSwitch](https://github.com/moshegottlieb/SoundSwitch).
 
-Has a trigger rate of 1 second.
+Has a default trigger rate of 1 second.
 
 ## Example
 
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel! {
         didSet {
-            self.label.text = ""
+            self.label.text = "-"
         }
     }
 
@@ -56,8 +56,14 @@ class ViewController: UIViewController {
         }
     }
 
+    // Trigger an ad-hoc check
+    @IBAction func checkPressed(_ sender: UIButton) {
+        Mute.shared.check()
+    }
+
 }
 ```
+
 ## Requirements
 
 ## Installation

@@ -87,7 +87,7 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate Mute into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
 github "akramhussein/Mute"

@@ -95,6 +95,16 @@ github "akramhussein/Mute"
 
 Run `carthage update` to build the framework and drag the built `Mute.framework` into your Xcode project.
 
+### Carthage for Xcode 12
+
+1. Copy file ExampleForCarthage/carthage.sh in your project root
+2. Run shell script below
+```bash
+$ sh carthage.sh update
+```
+
+https://github.com/Carthage/Carthage/issues/3019#issuecomment-665136323
+
 ## Author
 
 Akram Hussein, akramhussein@gmail.com

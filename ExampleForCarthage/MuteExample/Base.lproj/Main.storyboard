@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FIB-NN-0R1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="al2-0U-ZWd">
+            <objects>
+                <viewController id="FIB-NN-0R1" customClass="ViewController" customModule="MuteExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nSC-qb-Pjo"/>
+                        <viewControllerLayoutGuide type="bottom" id="fxp-ca-EFN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qJE-B1-V2e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdk-Xu-kml">
+                                <rect key="frame" x="41.5" y="429.5" width="331" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3F-OI-GQd">
+                                <rect key="frame" x="41.5" y="798" width="331" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="DDM-4Z-Sgb"/>
+                                </constraints>
+                                <state key="normal" title="Force Check">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="forceCheckPressed:" destination="FIB-NN-0R1" eventType="touchUpInside" id="4Ko-o9-E5p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ign-FY-Qde"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jdk-Xu-kml" firstAttribute="centerX" secondItem="qJE-B1-V2e" secondAttribute="centerX" id="1Uj-lv-Q30"/>
+                            <constraint firstItem="U3F-OI-GQd" firstAttribute="width" secondItem="qJE-B1-V2e" secondAttribute="width" multiplier="0.8" id="75P-ls-aRB"/>
+                            <constraint firstItem="jdk-Xu-kml" firstAttribute="width" secondItem="qJE-B1-V2e" secondAttribute="width" multiplier="0.8" id="aD5-wr-oov"/>
+                            <constraint firstItem="U3F-OI-GQd" firstAttribute="centerX" secondItem="qJE-B1-V2e" secondAttribute="centerX" id="bic-D5-GX6"/>
+                            <constraint firstItem="jdk-Xu-kml" firstAttribute="centerY" secondItem="qJE-B1-V2e" secondAttribute="centerY" id="iRs-oJ-6bS"/>
+                            <constraint firstItem="fxp-ca-EFN" firstAttribute="top" secondItem="U3F-OI-GQd" secondAttribute="bottom" constant="20" id="xg7-w2-AuT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="jdk-Xu-kml" id="XVw-wi-LXb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vJH-jr-4Pg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

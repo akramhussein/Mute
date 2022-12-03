@@ -24,6 +24,7 @@ This library is a Swift variant of https://github.com/moshegottlieb/SoundSwitch.
   s.resource_bundles = {
     'Mute' => ['Mute/Assets/*.aiff']
   }
+  s.pod_target_xcconfig = { 'CODE_SIGNING_ALLOWED' => 'NO' }
   s.frameworks = 'Foundation', 'AudioToolbox'
   s.swift_version = '5.0'
 end

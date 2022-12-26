@@ -7,120 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F36D5F566A8ED6ECA033C5AFC94FAC /* Mute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DEF78C4BE06948212F017C402DE459 /* Mute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12454C376FA6971EB3D1230CC3D27A43 /* mute.aiff in Resources */ = {isa = PBXBuildFile; fileRef = B90CF4D5A9F297551B6DACABE04B6BD9 /* mute.aiff */; };
-		148E2332FB904131E679503F16468D49 /* Mute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8496CF17EC2A74E7390EA332FA3D5B /* Mute.swift */; };
-		37944A1DE10447B16B9E334A06CAC038 /* Mute.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute.bundle */; };
-		42AD6CC62723B529D35F711ACCA398D3 /* Mute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDE1AB89FE1B0FC9670F77417AB026D /* Mute-dummy.m */; };
-		727E77ECCF248B8CEF5E49FA018C47DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D667E95054BF95CF4C23EA634FEAEC /* Foundation.framework */; };
-		95FE0C032A47CE5529DD3D18F1245DA4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F896274DE11CF1BEE2B836879B8E0A5A /* AudioToolbox.framework */; };
-		A4092B9B950FF784283C6269DDFDDC4A /* Pods-Mute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0DE3802392621AFDE02A1D6ABAE0E3 /* Pods-Mute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C92E973AA5BAAA61FB77E43CDDB6AF1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D667E95054BF95CF4C23EA634FEAEC /* Foundation.framework */; };
-		E44DD539D9E2EBE6E24A271471FFEA8B /* Pods-Mute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104CF459AA2AC4E877D13B4D6AE477C7 /* Pods-Mute_Example-dummy.m */; };
+		18777E4B4FC796C43D82CDE7D7E0F9EC /* Mute-Mute in Resources */ = {isa = PBXBuildFile; fileRef = 38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute-Mute */; };
+		60C4171C99B90CFAB927FCAADC265B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B6D0182792F32E56834B0ACE14048 /* Foundation.framework */; };
+		8E6E173DA3EE40A187CF2406CC333752 /* Mute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A56056BEACB0EA755CF9B3C8E19B944 /* Mute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91CB0C91197495822E61CC040AD45FA4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A86C7584CE8F70D9A95A49C75DB5B7 /* AudioToolbox.framework */; };
+		9A7354CC7806572482ECDBCB1EC35F15 /* Mute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F579FC42AD7A3BD891E927C9579391F /* Mute.swift */; };
+		AA027FD6DF677E4D680A32FAFB36921A /* mute.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D1357C9F7830B96EE7B8ACEE74ADC132 /* mute.aiff */; };
+		AF9514C2CA4AB95C219FC02F78117064 /* Pods-Mute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0DE3802392621AFDE02A1D6ABAE0E3 /* Pods-Mute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8CD233AD697BDE5B7AF820D852D4891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B6D0182792F32E56834B0ACE14048 /* Foundation.framework */; };
+		E7EE2E1CE260F1B414E6026D7DE6BA3B /* Pods-Mute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104CF459AA2AC4E877D13B4D6AE477C7 /* Pods-Mute_Example-dummy.m */; };
+		ECB729976370CCA8078072FACCBB03CD /* Mute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2458A5A56371B9E72836C4FFF0ACAC58 /* Mute-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07D1F0204409A3A738F3B2C238BB4A2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54BDE6102DCC728E85ED3A1CBE6A0C07;
-			remoteInfo = Mute;
-		};
-		338F3FDC717220DBABF98688CD97B59C /* PBXContainerItemProxy */ = {
+		14449CD531C36CFB51B48D53832D18F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2580614E2AEA6ADE492872ECF7D89BB8;
 			remoteInfo = "Mute-Mute";
 		};
+		A28AEB75B3358F96A28FE399601BCF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BDE6102DCC728E85ED3A1CBE6A0C07;
+			remoteInfo = Mute;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08D667E95054BF95CF4C23EA634FEAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		08BC191D3C32057431AB5C652ED56109 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		104CF459AA2AC4E877D13B4D6AE477C7 /* Pods-Mute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mute_Example-dummy.m"; sourceTree = "<group>"; };
+		127CE168E7462FE69C007BFA05C41021 /* Mute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mute.release.xcconfig; sourceTree = "<group>"; };
 		168864A48F7102488BA712F338463D76 /* Pods-Mute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mute_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2C319C715FDF24F6CDE1BD7E3C24C023 /* Mute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mute.release.xcconfig; sourceTree = "<group>"; };
-		38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Mute.bundle; path = "Mute-Mute.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183C0EFC63A1E4AB4E5669B3AF470B40 /* ResourceBundle-Mute-Mute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Mute-Mute-Info.plist"; sourceTree = "<group>"; };
+		23A86C7584CE8F70D9A95A49C75DB5B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		2458A5A56371B9E72836C4FFF0ACAC58 /* Mute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mute-dummy.m"; sourceTree = "<group>"; };
+		2A56056BEACB0EA755CF9B3C8E19B944 /* Mute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mute-umbrella.h"; sourceTree = "<group>"; };
+		38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute-Mute */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Mute-Mute"; path = Mute.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A5E95E3752645E69A19CA2D8A50AFA /* Pods-Mute_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mute_Example-Info.plist"; sourceTree = "<group>"; };
-		4F40E57F0A32EE2A46260663AC7CB8E3 /* Mute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mute.debug.xcconfig; sourceTree = "<group>"; };
+		505B6D0182792F32E56834B0ACE14048 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50A6EF45052A2710DF5865BE2FA2511F /* Mute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mute-Info.plist"; sourceTree = "<group>"; };
 		60BA87C242A62BAD98629412DAC8FC69 /* Pods-Mute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		670F4F25609C1E79BC01C3AEC28DF8DB /* ResourceBundle-Mute-Mute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Mute-Mute-Info.plist"; sourceTree = "<group>"; };
 		67FC627379DFDA74D84A102C439BF755 /* Pods-Mute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mute_Example-frameworks.sh"; sourceTree = "<group>"; };
-		70DAADD6866C43E8C65F91A7A13DF4D3 /* Mute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mute-Info.plist"; sourceTree = "<group>"; };
 		768D2DC3A447C566186FD9FB58AAD1B6 /* Pods-Mute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B0DE3802392621AFDE02A1D6ABAE0E3 /* Pods-Mute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mute_Example-umbrella.h"; sourceTree = "<group>"; };
-		86DEF78C4BE06948212F017C402DE459 /* Mute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mute-umbrella.h"; sourceTree = "<group>"; };
-		8DAE94F3F129E5F689096502A666E080 /* Mute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mute.modulemap; sourceTree = "<group>"; };
-		8F649BE391B3EA5702DC4EDD610297C1 /* Mute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B8496CF17EC2A74E7390EA332FA3D5B /* Mute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mute.swift; path = Mute/Classes/Mute.swift; sourceTree = "<group>"; };
+		85AAEE95361371F1346E6EA3B626416B /* Mute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mute-prefix.pch"; sourceTree = "<group>"; };
+		8F579FC42AD7A3BD891E927C9579391F /* Mute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mute.swift; path = Mute/Classes/Mute.swift; sourceTree = "<group>"; };
+		969FFEAE0F8D0C6FC6D8C4CEDE520A15 /* Mute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mute.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AFDE1AB89FE1B0FC9670F77417AB026D /* Mute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mute-dummy.m"; sourceTree = "<group>"; };
-		B2D34AB1F82A6A15EC97AD0A8BFFE3C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B90CF4D5A9F297551B6DACABE04B6BD9 /* mute.aiff */ = {isa = PBXFileReference; includeInIndex = 1; name = mute.aiff; path = Mute/Assets/mute.aiff; sourceTree = "<group>"; };
-		C63F5EDF13858AA7C83E636A9D2BFDD0 /* Mute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mute-prefix.pch"; sourceTree = "<group>"; };
-		D313569712EDD81B7AA2A8F6F6FF0364 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A3AA0EA7AC4CB1BF779BA5FD79A5976C /* Mute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mute.modulemap; sourceTree = "<group>"; };
+		B9B6AE4E0DCC697EDF5A52DB5C0C0F06 /* Mute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1357C9F7830B96EE7B8ACEE74ADC132 /* mute.aiff */ = {isa = PBXFileReference; includeInIndex = 1; name = mute.aiff; path = Mute/Assets/mute.aiff; sourceTree = "<group>"; };
+		DD3FFFCB1164017B967C688C26122E73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E147D986940B6FC6EA701702F0A79C64 /* Pods-Mute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F896274DE11CF1BEE2B836879B8E0A5A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		F94429D5DD68EBF1AA249B81878ABFA3 /* Mute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mute.framework; path = Mute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94429D5DD68EBF1AA249B81878ABFA3 /* Mute */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mute; path = Mute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA824C386C16C065467BE10060D93A66 /* Pods-Mute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mute_Example.modulemap"; sourceTree = "<group>"; };
-		FF06FAF388DFD2652BE14C8140AE2258 /* Pods_Mute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mute_Example.framework; path = "Pods-Mute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF06FAF388DFD2652BE14C8140AE2258 /* Pods-Mute_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Mute_Example"; path = Pods_Mute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6093350E29A3200B636987D73153680 /* Frameworks */ = {
+		5266612B770EFCF9559607AB8F1A876C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3BBF9297761DBB16EC6EE6E57B208D2 /* Frameworks */ = {
+		E74B86758ADA7EEF384393CB2FA57688 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FE0C032A47CE5529DD3D18F1245DA4 /* AudioToolbox.framework in Frameworks */,
-				727E77ECCF248B8CEF5E49FA018C47DA /* Foundation.framework in Frameworks */,
+				60C4171C99B90CFAB927FCAADC265B29 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBF490B0B7723916F90E34FBC2A8228E /* Frameworks */ = {
+		FE169DBDF675B6D4C484AEFBA1CB8461 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92E973AA5BAAA61FB77E43CDDB6AF1A /* Foundation.framework in Frameworks */,
+				91CB0C91197495822E61CC040AD45FA4 /* AudioToolbox.framework in Frameworks */,
+				C8CD233AD697BDE5B7AF820D852D4891 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14237FA093CF1DBEB8D6D34DB451987C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute.bundle */,
-				F94429D5DD68EBF1AA249B81878ABFA3 /* Mute.framework */,
-				FF06FAF388DFD2652BE14C8140AE2258 /* Pods_Mute_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5CB007FA111612E18B90910BA0BF2603 /* iOS */,
+				E5685E3E66E5E3E94C9518F038469E58 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		59E130EF45A2570A3DFBAA28A35FB553 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B2D34AB1F82A6A15EC97AD0A8BFFE3C3 /* LICENSE */,
-				8F649BE391B3EA5702DC4EDD610297C1 /* Mute.podspec */,
-				D313569712EDD81B7AA2A8F6F6FF0364 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5BCB2F03F6C8CBFEB98CA1214D6F5450 /* Pods-Mute_Example */ = {
@@ -140,15 +120,6 @@
 			path = "Target Support Files/Pods-Mute_Example";
 			sourceTree = "<group>";
 		};
-		5CB007FA111612E18B90910BA0BF2603 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F896274DE11CF1BEE2B836879B8E0A5A /* AudioToolbox.framework */,
-				08D667E95054BF95CF4C23EA634FEAEC /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		625739069B55B86F11E7C074802FE87F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,17 +131,45 @@
 		98CFB0223BF2B3CF6F407B0A4B6CD72C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DD21A1B08534BE63BC4FF309FC38F6BF /* Mute */,
+				D27EFF3A6DEE7F5609117E33A083363C /* Mute */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A214D43EA691D62693E27252A7DF64FA /* Resources */ = {
+		A680E8963E3BB57F2CA113C9E1476566 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B90CF4D5A9F297551B6DACABE04B6BD9 /* mute.aiff */,
+				A3AA0EA7AC4CB1BF779BA5FD79A5976C /* Mute.modulemap */,
+				2458A5A56371B9E72836C4FFF0ACAC58 /* Mute-dummy.m */,
+				50A6EF45052A2710DF5865BE2FA2511F /* Mute-Info.plist */,
+				85AAEE95361371F1346E6EA3B626416B /* Mute-prefix.pch */,
+				2A56056BEACB0EA755CF9B3C8E19B944 /* Mute-umbrella.h */,
+				969FFEAE0F8D0C6FC6D8C4CEDE520A15 /* Mute.debug.xcconfig */,
+				127CE168E7462FE69C007BFA05C41021 /* Mute.release.xcconfig */,
+				183C0EFC63A1E4AB4E5669B3AF470B40 /* ResourceBundle-Mute-Mute-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Mute";
+			sourceTree = "<group>";
+		};
+		A717C6F09F867E89EB014418F0E70F06 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08BC191D3C32057431AB5C652ED56109 /* LICENSE */,
+				B9B6AE4E0DCC697EDF5A52DB5C0C0F06 /* Mute.podspec */,
+				DD3FFFCB1164017B967C688C26122E73 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CDE4A97E87E7E49329598C7FA03CFE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94429D5DD68EBF1AA249B81878ABFA3 /* Mute */,
+				38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute-Mute */,
+				FF06FAF388DFD2652BE14C8140AE2258 /* Pods-Mute_Example */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -179,55 +178,48 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				98CFB0223BF2B3CF6F407B0A4B6CD72C /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				14237FA093CF1DBEB8D6D34DB451987C /* Products */,
+				CDE4A97E87E7E49329598C7FA03CFE02 /* Products */,
 				625739069B55B86F11E7C074802FE87F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DD21A1B08534BE63BC4FF309FC38F6BF /* Mute */ = {
+		D27EFF3A6DEE7F5609117E33A083363C /* Mute */ = {
 			isa = PBXGroup;
 			children = (
-				9B8496CF17EC2A74E7390EA332FA3D5B /* Mute.swift */,
-				59E130EF45A2570A3DFBAA28A35FB553 /* Pod */,
-				A214D43EA691D62693E27252A7DF64FA /* Resources */,
-				F60761F99B7F26221D4F92568346008F /* Support Files */,
+				D1357C9F7830B96EE7B8ACEE74ADC132 /* mute.aiff */,
+				8F579FC42AD7A3BD891E927C9579391F /* Mute.swift */,
+				A717C6F09F867E89EB014418F0E70F06 /* Pod */,
+				A680E8963E3BB57F2CA113C9E1476566 /* Support Files */,
 			);
 			name = Mute;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F60761F99B7F26221D4F92568346008F /* Support Files */ = {
+		E5685E3E66E5E3E94C9518F038469E58 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8DAE94F3F129E5F689096502A666E080 /* Mute.modulemap */,
-				AFDE1AB89FE1B0FC9670F77417AB026D /* Mute-dummy.m */,
-				70DAADD6866C43E8C65F91A7A13DF4D3 /* Mute-Info.plist */,
-				C63F5EDF13858AA7C83E636A9D2BFDD0 /* Mute-prefix.pch */,
-				86DEF78C4BE06948212F017C402DE459 /* Mute-umbrella.h */,
-				4F40E57F0A32EE2A46260663AC7CB8E3 /* Mute.debug.xcconfig */,
-				2C319C715FDF24F6CDE1BD7E3C24C023 /* Mute.release.xcconfig */,
-				670F4F25609C1E79BC01C3AEC28DF8DB /* ResourceBundle-Mute-Mute-Info.plist */,
+				23A86C7584CE8F70D9A95A49C75DB5B7 /* AudioToolbox.framework */,
+				505B6D0182792F32E56834B0ACE14048 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Mute";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		175D64662FA4BFF0376B223B21D537E1 /* Headers */ = {
+		2C12A6A8772B488540F312DF1EB4109E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00F36D5F566A8ED6ECA033C5AFC94FAC /* Mute-umbrella.h in Headers */,
+				8E6E173DA3EE40A187CF2406CC333752 /* Mute-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBFE6AEF44D49F50B0A5650B4BADF2F2 /* Headers */ = {
+		3BD22008601BEAB0DCF6BB8F1D2744CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4092B9B950FF784283C6269DDFDDC4A /* Pods-Mute_Example-umbrella.h in Headers */,
+				AF9514C2CA4AB95C219FC02F78117064 /* Pods-Mute_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,57 +228,57 @@
 /* Begin PBXNativeTarget section */
 		2580614E2AEA6ADE492872ECF7D89BB8 /* Mute-Mute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07DA4336BC40C517713747EA88092C04 /* Build configuration list for PBXNativeTarget "Mute-Mute" */;
+			buildConfigurationList = 65B9C02C782041CAE1B33D8ABFA333D4 /* Build configuration list for PBXNativeTarget "Mute-Mute" */;
 			buildPhases = (
-				CF143DD53877E36F6063C01158E45C6D /* Sources */,
-				A6093350E29A3200B636987D73153680 /* Frameworks */,
-				A04C93497EC75EC81FFD4C1F38DE0CCF /* Resources */,
+				99F043B7D172C91FB9D80948735EFA4E /* Sources */,
+				5266612B770EFCF9559607AB8F1A876C /* Frameworks */,
+				F33C998D3A58FF31C0A63E075E6AF11A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Mute-Mute";
-			productName = "Mute-Mute";
-			productReference = 38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute.bundle */;
+			productName = Mute;
+			productReference = 38401774DC17CC4A6E48B8EAB0DDEAB7 /* Mute-Mute */;
 			productType = "com.apple.product-type.bundle";
 		};
 		54BDE6102DCC728E85ED3A1CBE6A0C07 /* Mute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85E002B917D31FA0E63DF32EE47098F9 /* Build configuration list for PBXNativeTarget "Mute" */;
+			buildConfigurationList = DA7192A38FFC0CA171D28B45A05C1B5E /* Build configuration list for PBXNativeTarget "Mute" */;
 			buildPhases = (
-				175D64662FA4BFF0376B223B21D537E1 /* Headers */,
-				50C8937AFA89991DA3E6B186845CA938 /* Sources */,
-				D3BBF9297761DBB16EC6EE6E57B208D2 /* Frameworks */,
-				621038ABFDBD51049E009EEC82BFA3A3 /* Resources */,
+				2C12A6A8772B488540F312DF1EB4109E /* Headers */,
+				8A8ECE0E94999E136D51407A02270C3C /* Sources */,
+				FE169DBDF675B6D4C484AEFBA1CB8461 /* Frameworks */,
+				B5A4338A0FC08368BD5723A5691C7969 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3936AE9C44CBEC648F76C40664ED86E0 /* PBXTargetDependency */,
+				025E01F6BD6885CFF2996DB860D14EE0 /* PBXTargetDependency */,
 			);
 			name = Mute;
 			productName = Mute;
-			productReference = F94429D5DD68EBF1AA249B81878ABFA3 /* Mute.framework */;
+			productReference = F94429D5DD68EBF1AA249B81878ABFA3 /* Mute */;
 			productType = "com.apple.product-type.framework";
 		};
 		A84FB9582BEC24FE421EBC87EA1671BF /* Pods-Mute_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42874A97E4FE64D8CA2A30BCB0FDFAB6 /* Build configuration list for PBXNativeTarget "Pods-Mute_Example" */;
+			buildConfigurationList = 3166C6DE8E01FD63ED86D98EECD254C5 /* Build configuration list for PBXNativeTarget "Pods-Mute_Example" */;
 			buildPhases = (
-				FBFE6AEF44D49F50B0A5650B4BADF2F2 /* Headers */,
-				C29985B4DCCECEFCEB9C40A35BA0CE0D /* Sources */,
-				FBF490B0B7723916F90E34FBC2A8228E /* Frameworks */,
-				50D57F58F56137F8D2428D7B002AEA0A /* Resources */,
+				3BD22008601BEAB0DCF6BB8F1D2744CA /* Headers */,
+				4DC4BD4B710D0224F474ED5E96D8BF47 /* Sources */,
+				E74B86758ADA7EEF384393CB2FA57688 /* Frameworks */,
+				7E6F18677FBF12E03717BF05F52EC38D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B95804D782C36F0890CC9BFDC3A18DEA /* PBXTargetDependency */,
+				BA750DB322CF91904A8BE656642A150A /* PBXTargetDependency */,
 			);
 			name = "Pods-Mute_Example";
-			productName = "Pods-Mute_Example";
-			productReference = FF06FAF388DFD2652BE14C8140AE2258 /* Pods_Mute_Example.framework */;
+			productName = Pods_Mute_Example;
+			productReference = FF06FAF388DFD2652BE14C8140AE2258 /* Pods-Mute_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -295,19 +287,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 14237FA093CF1DBEB8D6D34DB451987C /* Products */;
+			productRefGroup = CDE4A97E87E7E49329598C7FA03CFE02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -319,50 +311,50 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50D57F58F56137F8D2428D7B002AEA0A /* Resources */ = {
+		7E6F18677FBF12E03717BF05F52EC38D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		621038ABFDBD51049E009EEC82BFA3A3 /* Resources */ = {
+		B5A4338A0FC08368BD5723A5691C7969 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37944A1DE10447B16B9E334A06CAC038 /* Mute.bundle in Resources */,
+				18777E4B4FC796C43D82CDE7D7E0F9EC /* Mute-Mute in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A04C93497EC75EC81FFD4C1F38DE0CCF /* Resources */ = {
+		F33C998D3A58FF31C0A63E075E6AF11A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12454C376FA6971EB3D1230CC3D27A43 /* mute.aiff in Resources */,
+				AA027FD6DF677E4D680A32FAFB36921A /* mute.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50C8937AFA89991DA3E6B186845CA938 /* Sources */ = {
+		4DC4BD4B710D0224F474ED5E96D8BF47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42AD6CC62723B529D35F711ACCA398D3 /* Mute-dummy.m in Sources */,
-				148E2332FB904131E679503F16468D49 /* Mute.swift in Sources */,
+				E7EE2E1CE260F1B414E6026D7DE6BA3B /* Pods-Mute_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C29985B4DCCECEFCEB9C40A35BA0CE0D /* Sources */ = {
+		8A8ECE0E94999E136D51407A02270C3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44DD539D9E2EBE6E24A271471FFEA8B /* Pods-Mute_Example-dummy.m in Sources */,
+				9A7354CC7806572482ECDBCB1EC35F15 /* Mute.swift in Sources */,
+				ECB729976370CCA8078072FACCBB03CD /* Mute-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF143DD53877E36F6063C01158E45C6D /* Sources */ = {
+		99F043B7D172C91FB9D80948735EFA4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,93 +364,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3936AE9C44CBEC648F76C40664ED86E0 /* PBXTargetDependency */ = {
+		025E01F6BD6885CFF2996DB860D14EE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mute-Mute";
 			target = 2580614E2AEA6ADE492872ECF7D89BB8 /* Mute-Mute */;
-			targetProxy = 338F3FDC717220DBABF98688CD97B59C /* PBXContainerItemProxy */;
+			targetProxy = 14449CD531C36CFB51B48D53832D18F6 /* PBXContainerItemProxy */;
 		};
-		B95804D782C36F0890CC9BFDC3A18DEA /* PBXTargetDependency */ = {
+		BA750DB322CF91904A8BE656642A150A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mute;
 			target = 54BDE6102DCC728E85ED3A1CBE6A0C07 /* Mute */;
-			targetProxy = 07D1F0204409A3A738F3B2C238BB4A2C /* PBXContainerItemProxy */;
+			targetProxy = A28AEB75B3358F96A28FE399601BCF1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04B7AC53ADD9FA049D29B25A8C93734C /* Release */ = {
+		0C14295EFC9C3F27D92C8DA39F549FCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60BA87C242A62BAD98629412DAC8FC69 /* Pods-Mute_Example.release.xcconfig */;
+			baseConfigurationReference = 127CE168E7462FE69C007BFA05C41021 /* Mute.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2C1653FBC3130129FD6FABEAD43C9510 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 168864A48F7102488BA712F338463D76 /* Pods-Mute_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E24B83B4F9109D118658FBC49404A16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C319C715FDF24F6CDE1BD7E3C24C023 /* Mute.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -486,27 +410,11 @@
 			};
 			name = Release;
 		};
-		5430108B657D2D64688FD954F859D0D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F40E57F0A32EE2A46260663AC7CB8E3 /* Mute.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mute";
-				IBSC_MODULE = Mute;
-				INFOPLIST_FILE = "Target Support Files/Mute/ResourceBundle-Mute-Mute-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = Mute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -529,66 +437,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -627,11 +476,42 @@
 			};
 			name = Debug;
 		};
-		A865ACD45ABCC498A4D41CED00DC197A /* Debug */ = {
+		2A8D4DD53643EFF3DCBF64F3689D7C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F40E57F0A32EE2A46260663AC7CB8E3 /* Mute.debug.xcconfig */;
+			baseConfigurationReference = 168864A48F7102488BA712F338463D76 /* Pods-Mute_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3182AB201DCE098B727D6EADDB9EB294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969FFEAE0F8D0C6FC6D8C4CEDE520A15 /* Mute.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -658,11 +538,121 @@
 			};
 			name = Debug;
 		};
-		FB9AE0C6D0F9A28D0218076D13884CEF /* Release */ = {
+		3C42DAEA04159DA4281B5687401D24AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C319C715FDF24F6CDE1BD7E3C24C023 /* Mute.release.xcconfig */;
+			baseConfigurationReference = 60BA87C242A62BAD98629412DAC8FC69 /* Pods-Mute_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mute_Example/Pods-Mute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1A5DE7115E677C6A21BC1F3D5F331D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969FFEAE0F8D0C6FC6D8C4CEDE520A15 /* Mute.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mute";
+				IBSC_MODULE = Mute;
+				INFOPLIST_FILE = "Target Support Files/Mute/ResourceBundle-Mute-Mute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Mute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E0C4C068B752EA3AA6227ED2DC57F27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127CE168E7462FE69C007BFA05C41021 /* Mute.release.xcconfig */;
+			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mute";
 				IBSC_MODULE = Mute;
 				INFOPLIST_FILE = "Target Support Files/Mute/ResourceBundle-Mute-Mute-Info.plist";
@@ -678,20 +668,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07DA4336BC40C517713747EA88092C04 /* Build configuration list for PBXNativeTarget "Mute-Mute" */ = {
+		3166C6DE8E01FD63ED86D98EECD254C5 /* Build configuration list for PBXNativeTarget "Pods-Mute_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5430108B657D2D64688FD954F859D0D4 /* Debug */,
-				FB9AE0C6D0F9A28D0218076D13884CEF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42874A97E4FE64D8CA2A30BCB0FDFAB6 /* Build configuration list for PBXNativeTarget "Pods-Mute_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C1653FBC3130129FD6FABEAD43C9510 /* Debug */,
-				04B7AC53ADD9FA049D29B25A8C93734C /* Release */,
+				2A8D4DD53643EFF3DCBF64F3689D7C26 /* Debug */,
+				3C42DAEA04159DA4281B5687401D24AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -699,17 +680,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85E002B917D31FA0E63DF32EE47098F9 /* Build configuration list for PBXNativeTarget "Mute" */ = {
+		65B9C02C782041CAE1B33D8ABFA333D4 /* Build configuration list for PBXNativeTarget "Mute-Mute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A865ACD45ABCC498A4D41CED00DC197A /* Debug */,
-				2E24B83B4F9109D118658FBC49404A16 /* Release */,
+				D1A5DE7115E677C6A21BC1F3D5F331D4 /* Debug */,
+				E0C4C068B752EA3AA6227ED2DC57F27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7192A38FFC0CA171D28B45A05C1B5E /* Build configuration list for PBXNativeTarget "Mute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3182AB201DCE098B727D6EADDB9EB294 /* Debug */,
+				0C14295EFC9C3F27D92C8DA39F549FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

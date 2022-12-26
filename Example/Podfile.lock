@@ -1,5 +1,5 @@
 PODS:
-  - Mute (0.6.0)
+  - Mute (0.6.1)
 
 DEPENDENCIES:
   - Mute (from `../`)

@@ -77,7 +77,7 @@ pod 'Mute'
 
 ## Author
 
-Akram Hussein, akramhussein@gmail.com
+Akram Hussein
 
 ## License
 
